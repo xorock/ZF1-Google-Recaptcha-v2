@@ -224,7 +224,7 @@ class Ghost_Captcha_ReCaptcha2 extends Zend_Captcha_Base
         if ($element instanceof Zend_Form_Element) {
             $name = $element->getBelongsTo();
         }
-        return $this->getService()->getHTML($name);
+        return $this->getService()->getHtml($name);
     }
 
     /**
